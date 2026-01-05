@@ -1,0 +1,28 @@
+STEMQUINA v0.3 - Third-Party Licenses
+======================================
+
+This software uses the following open-source libraries:
+
+1. Python Standard Library
+   License: Python Software Foundation License (PSFL)
+   Used for: os, tkinter, json, threading, etc.
+
+2. Pygame
+   License: GNU Lesser General Public License (LGPL)
+   Used for: Audio mixer and sound playback.
+
+3. NumPy
+   License: BSD 3-Clause "New" or "Revised" License
+   Used for: Fast waveform data processing.
+
+4. Pydub
+   License: MIT License
+   Used for: Audio manipulation and frame rate conversion.
+
+5. Pillow (PIL Fork)
+   License: HPND (Historical Permission Notice and Disclaimer)
+   Used for: Album cover art processing.
+
+6. Mutagen
+   License: GNU General Public License v2 (GPLv2)
+   Used for: Reading ID3 tags and embedded cover art.
