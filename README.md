@@ -4,6 +4,7 @@ StemQuina is a simple multi-track audio player designed for musicians. It allows
 <img width="1197" height="880" alt="obrázok" src="https://github.com/user-attachments/assets/306fea51-2e83-4a0e-a993-cddb831407ea" />
 
 🛠 Installation & Requirements
+
 Before running StemQuina, ensure you have Python 3.11 installed. Install the required libraries using the following command:
 Bash
 pip install pygame numpy pydub Pillow mutagen
@@ -11,14 +12,20 @@ pip install pygame numpy pydub Pillow mutagen
 Note: You also need ffmpeg installed on your system for pydub to handle MP3 files correctly.
 
 🎹 Keyboard Shortcuts
-Key	Action
-Spacebar	Play / Pause
-M	Add Marker at current position
-1 - 9	Jump to Marker 1 through 9
-Ctrl + T	Lyrics Timestamp: Insert timecode at current line (in Edit Mode)
-Left Click	Seek to position on waveform
-Right Click	Set Loop Point A
-Ctrl + Right Click	Set Loop Point B
+
+Spacebar - Play / Pause
+
+M -	Add Marker at current position
+
+1 - 9 - Jump to Marker 1 through 9
+
+Ctrl + T -	Lyrics Timestamp: Insert timecode at current line (in Edit Mode)
+
+Left Click - Seek to position on waveform
+
+Right Click - Set Loop Point A
+
+Ctrl + Right Click - Set Loop Point B
 
 📖 Detailed Tutorial
 1. Preparing Your Library
