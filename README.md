@@ -1,5 +1,8 @@
 # StemQuina
 StemQuina is a simple multi-track audio player designed for musicians. It allows you to load song stems, manage practice markers, sync lyrics, and more. 
+Programed by AI
+Author: Tomas Krsko
+Prompt Master: Tomas Krsko
 
 <img width="1197" height="880" alt="obrázok" src="https://github.com/user-attachments/assets/306fea51-2e83-4a0e-a993-cddb831407ea" />
 
