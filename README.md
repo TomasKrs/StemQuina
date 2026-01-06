@@ -12,12 +12,19 @@ pip install pygame numpy pydub Pillow mutagen
 Note: You also need ffmpeg installed on your system for pydub to handle MP3 files correctly.
 
 🎹 Keyboard Shortcuts
+
 Spacebar - Play / Pause
+
 M -	Add Marker at current position
+
 1 - 9 - Jump to Marker 1 through 9
+
 Ctrl + T -	Lyrics Timestamp: Insert timecode at current line (in Edit Mode)
+
 Left Click - Seek to position on waveform
+
 Right Click - Set Loop Point A
+
 Ctrl + Right Click - Set Loop Point B
 
 📖 Detailed Tutorial
