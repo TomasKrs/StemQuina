@@ -4,6 +4,7 @@ StemQuina is a simple multi-track audio player designed for musicians. It allows
 <img width="1197" height="880" alt="obrázok" src="https://github.com/user-attachments/assets/306fea51-2e83-4a0e-a993-cddb831407ea" />
 
 🛠 Installation & Requirements
+
 Before running StemQuina, ensure you have Python 3.11 installed. Install the required libraries using the following command:
 Bash
 pip install pygame numpy pydub Pillow mutagen
