@@ -7,6 +7,7 @@ import time
 import re
 import threading
 import json
+import sys
 from pathlib import Path
 from pydub import AudioSegment
 from PIL import Image, ImageTk
@@ -19,7 +20,12 @@ BG_CARD = "#0f0f0f"
 ACCENT = "#00ff88"
 TEXT_DIM = "#aaaaaa" 
 COLORS = ["#3498db", "#e74c3c", "#f1c40f", "#9b59b6", "#2ecc71"]
-BASE_DIR = Path(__file__).parent
+if getattr(sys, 'frozen', False):
+    # Ak bežíme ako EXE, BASE_DIR je priečinok, kde je uložený EXE súbor
+    BASE_DIR = Path(sys.executable).parent
+else:
+    # Ak bežíme ako skript (.py), BASE_DIR je priečinok so skriptom
+    BASE_DIR = Path(__file__).parent
 
 class UltimatePlayer:
     def __init__(self, root):
